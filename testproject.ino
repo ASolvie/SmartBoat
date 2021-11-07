@@ -43,7 +43,7 @@ const int tempPin1 = A5; // temperature pin engine 1
 // digital pin
 const int speedoTachoVoltorOilyPin2 = 13; // mph,rpm,voltage,oil pressure engine 2
 const int fuelTempPin2Sync = 12; //fuel level,temperature engine 2; sync
-const int rim1rim2 = 11; // rim 1 for engine 1 and rim 2 for engine 2
+const int trim1trim2 = 11; // rim 1 for engine 1 and rim 2 for engine 2
 
 // analog reads
 int speedoRead1 = 0; // mph value read engine 1, M
