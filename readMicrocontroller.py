@@ -1,0 +1,19 @@
+# using py 3.72
+import serial
+import time
+
+arduino = serial.Serial(port='COM7', baudrate=9600, timeout=.1)
+
+
+def write_read(x):
+    arduino.write(bytes(x, 'utf-8'))
+    time.sleep(0.05)
+    data = arduino.readline()
+    return data
+
+
+while True:
+    num = str(1)
+    value = write_read(num)
+    if(value != b''):
+        print(value)
