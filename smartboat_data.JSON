@@ -1,0 +1,18 @@
+{"SENSORDATA":[
+  {
+    "Fuel_One": 50, 
+    "Fuel_Two": 50, 
+    "Oil_Pressure_One": 75, 
+    "Oil_Pressure_Two": 75, 
+    "Speedometer": 20, 
+    "Sync": 0.5, 
+    "Tachometer_One": 20, 
+    "Tachometer_Two": 20, 
+    "Temperature_One": 100, 
+    "Temperature_Two": 100, 
+    "Trim_One": 10, 
+    "Trim_Two": 10, 
+    "Voltage_One": 13, 
+    "Voltage_Two": 14
+  }]
+}
